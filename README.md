@@ -4,7 +4,7 @@ Debian 8 jessie for Lichee Pi Zero Allwinner V3S chip. LCD: ST7789V
 ![alt text](https://github.com/nathalislight/Lichee-Pi-Zero-V3S-debian-8-jessie/blob/main/v3s.png)
 
 ```
-dd if=./sdcard.img.lzma | unlzma | dd of=/dev/sda
+dd if=./sdcard.img.lzma | unlzma | dd of=/dev/sdb
 ```
 
 ```

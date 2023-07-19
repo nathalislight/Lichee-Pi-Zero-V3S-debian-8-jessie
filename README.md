@@ -3,12 +3,19 @@ Debian 8 jessie for Lichee Pi Zero Allwinner V3S chip. LCD: ST7789V
 
 ![alt text](https://github.com/nathalislight/Lichee-Pi-Zero-V3S-debian-8-jessie/blob/main/v3s.png)
 
+```
+dd if=./sdcard.img.lzma | unlzma | dd of=/dev/sda
+```
+
+```
 login: root
 password: 0137
+```
 
 WIFI SETUP:
+```
  wpa_passphrase MYSSID MYPASSPHRASE > /etc/wpa_supplicant.conf
-
+```
 
 
 Custom kernel for ST7789V 2.0" 320x240 TFT LCD.
